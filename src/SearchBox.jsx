@@ -67,9 +67,10 @@ function SearchBox({ updateInfo}){
 <br></br>
 
 <Button variant="contained"
- type='submit' onClick={handleSubmit}>Click me!.
+ type='submit' onClick={handleSubmit}>SEARCH
 </Button>
 {error&& <h6  style={{color:"red"}}>No such place Exists.. </h6>}
+
 </form>
 
  </div>
