@@ -30,7 +30,7 @@ function WeatherApp(){
 
         <div>
 
-            <h2>Weather App by Mohd Adil </h2>
+            <h2>Weather App</h2>
             <SearchBox updateInfo= {updateInfo}/>
             <br></br>
             <InfoBox info={WeatherInfo}/>
